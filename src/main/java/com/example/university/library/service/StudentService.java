@@ -4,9 +4,11 @@ import com.example.university.library.exception.StudentNotFoundException;
 import com.example.university.library.model.Student;
 import com.example.university.library.repository.StudentRepository;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class StudentService {
 
     public StudentRepository studentRepository;

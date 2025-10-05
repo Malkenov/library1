@@ -3,9 +3,11 @@ package com.example.university.library.service;
 import com.example.university.library.exception.CoursNotFoundException;
 import com.example.university.library.model.Course;
 import com.example.university.library.repository.CourseRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CourseService {
 
     public CourseRepository courseRepository;
